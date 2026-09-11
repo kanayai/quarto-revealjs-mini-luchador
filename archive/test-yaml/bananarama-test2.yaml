@@ -1,0 +1,32 @@
+# Second round of testing: real lucha libre scene elements instead of
+# data-chart motifs (ropes, posts, flying, rival luchador, crowd).
+output-dir: assets/test
+
+defaults:
+  model: gpt-image-2.5-sunburst
+  aspect-ratio: "16:9"
+  style: >
+    Flat vector sticker illustration, bold black outline, cel-shaded with
+    simple highlights, chibi proportions, warm storybook feel. Mini
+    luchador mascot: teal and gold wrestling mask with a lightning-bolt
+    motif, red cape, red trunks with gold accents, warm skin tone, joyful
+    energetic pose. Staged in a lucha libre arena: coloured ring ropes and
+    corner turnbuckle posts as framing elements (no ring mat/canvas
+    filling the frame), soft small crowd silhouette far in the
+    background for scale. Cream/white empty space as described per
+    image, for slide text to sit on top.
+
+images:
+  - name: flying1
+    description: >
+      [mascot] captured mid-air, diving off the top rope of the ring,
+      arms out, cape streaming behind. Ring ropes and one corner post
+      visible along the left edge, faint crowd silhouette low in the
+      background. Wide open cream space across the right two-thirds for
+      title text.
+  - name: rivals1
+    description: >
+      [mascot] and a second rival mini luchador (purple and silver mask,
+      black cape) squaring off, both mid-taunt, standing just inside the
+      ring ropes which frame the bottom edge of the scene. Open cream
+      space across the upper half for section text.

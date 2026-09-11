@@ -1,0 +1,27 @@
+# Round 8: variant of flying3 — same ropes/dive scene, but the rudo is
+# now lying on the ground below, técnico flying over/at him.
+output-dir: assets/test
+
+defaults:
+  model: gpt-image-2.5-sunburst
+  aspect-ratio: "16:9"
+
+images:
+  - name: flying4
+    style: >
+      Flat vector sticker illustration, bold black outline, cel-shaded
+      with simple highlights, chibi proportions, warm storybook feel.
+    description: >
+      A small, compact scene occupying at most the left quarter of the
+      1280x720 frame: the técnico [mascot] (teal and gold mask, red
+      cape) mid-air, diving off the top rope of a wrestling ring toward
+      the ground, cape streaming. Below him on the ground lies the rudo
+      (no mask, long dark hair, discreet goatee, black and silver
+      singlet, black boots), flat on his back, looking dazed/scared up
+      at the incoming técnico, eyes wide, still in a cute children's-
+      cartoon way, not violent or graphic. Show the corner turnbuckle
+      post and exactly three horizontal ring ropes fully visible, not
+      cropped. Tiny crowd silhouette low behind, very subtle. The scene
+      must be small and tightly bounded, leaving the entire remaining
+      frame (at least three-quarters) as flat, empty cream/white space
+      with nothing in it, for title text to sit on.

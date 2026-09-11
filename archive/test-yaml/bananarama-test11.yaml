@@ -1,0 +1,38 @@
+# Round 11 (final try for today): "la mística" — orthogonal (90-degree
+# L-shaped) composition. Rudo standing vertical, técnico horizontal in
+# the air, forming a right angle.
+output-dir: assets/test
+
+defaults:
+  model: gpt-image-2.5-sunburst
+  aspect-ratio: "16:9"
+  style: >
+    Flat vector sticker illustration, bold black outline, cel-shaded
+    with simple highlights, chibi proportions, isolated character
+    illustration (like a sticker/emoji asset), no scenery, no ring, no
+    props, no shadow on the ground. Background must be a single flat
+    solid pure white (#FFFFFF), completely empty everywhere else in the
+    frame, no gradients, no texture, no decorative elements at all
+    outside the characters.
+
+images:
+  - name: move-mistica2
+    description: >
+      A "la mística" headscissor throw, composed as a clear 90-degree
+      L-shape / right angle between the two characters. The rudo (no
+      mask, long dark hair, discreet goatee, black and silver singlet,
+      black boots) is the VERTICAL side of the L: standing nearly
+      upright on the ground, body straight and vertical, arms raised in
+      panic, wide-eyed scared expression (cute children's-cartoon style,
+      not violent or graphic). The técnico [mascot] (teal and gold mask,
+      red cape flaring from motion) is the HORIZONTAL side of the L:
+      fully airborne, body held perfectly straight and horizontal, at
+      roughly the height of the rudo's head/upper body, forming a clean
+      right angle with the rudo's vertical body — like the two strokes
+      of an "L" or a 90-degree corner. The técnico's straightened legs
+      clip around and clamp the rudo's head/neck at the point where the
+      two bodies meet; it is fine if only one leg is clearly visible in
+      this side view, as long as the clamp on the head reads clearly.
+      Dynamic motion-line accents allowed. Both characters compact and
+      small, positioned together in the lower-right quarter of the
+      frame only.

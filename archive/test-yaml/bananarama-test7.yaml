@@ -1,0 +1,35 @@
+# Round 7: fix candado al cuello — técnico must be positioned BEHIND the
+# rudo, not side-by-side, with the hold clearly wrapped around the neck
+# from behind.
+output-dir: assets/test
+
+defaults:
+  model: gpt-image-2.5-sunburst
+  aspect-ratio: "16:9"
+  style: >
+    Flat vector sticker illustration, bold black outline, cel-shaded
+    with simple highlights, chibi proportions, isolated character
+    illustration (like a sticker/emoji asset), no scenery, no ring, no
+    props, no shadow on the ground. Background must be a single flat
+    solid pure white (#FFFFFF), completely empty everywhere else in the
+    frame, no gradients, no texture, no decorative elements at all
+    outside the characters.
+
+images:
+  - name: move-candado2
+    description: >
+      A "candado al cuello" (standing neck/headlock hold), shown from a
+      three-quarter side view so both characters and the hold are
+      clearly visible. The rudo (no mask, long dark hair, discreet
+      goatee, black and silver singlet, black boots) is in FRONT,
+      facing forward/outward toward the viewer, body upright, head
+      pulled back and slightly down, straining/grimacing but still in a
+      cute children's-cartoon way. The técnico [mascot] (teal and gold
+      mask, red cape) is standing directly BEHIND the rudo, pressed
+      close against the rudo's back, one arm wrapped tightly around the
+      front of the rudo's neck/throat from behind, the técnico's head
+      visible peeking over the rudo's shoulder. This must clearly read
+      as one character applying a hold from behind the other, not two
+      characters standing side by side. Both characters compact and
+      small, positioned together in the lower-right quarter of the
+      frame only.

@@ -1,0 +1,34 @@
+# Round 10: "la mística" — técnico's straightened legs clamped around the
+# rudo's neck mid-air, the instant before throwing him to the floor.
+output-dir: assets/test
+
+defaults:
+  model: gpt-image-2.5-sunburst
+  aspect-ratio: "16:9"
+  style: >
+    Flat vector sticker illustration, bold black outline, cel-shaded
+    with simple highlights, chibi proportions, isolated character
+    illustration (like a sticker/emoji asset), no scenery, no ring, no
+    props, no shadow on the ground. Background must be a single flat
+    solid pure white (#FFFFFF), completely empty everywhere else in the
+    frame, no gradients, no texture, no decorative elements at all
+    outside the characters.
+
+images:
+  - name: move-mistica
+    description: >
+      The instant just before the técnico [mascot] (teal and gold mask,
+      red cape flaring outward from the motion) throws the rudo to the
+      floor during a "la mística" spinning headscissor maneuver: the
+      técnico is airborne, upside-down or inverted from the spin, legs
+      fully straightened and scissored tightly around the neck/head of
+      the rudo (no mask, long dark hair, discreet goatee, black and
+      silver singlet, black boots), clamping his head between the
+      técnico's straight legs. The técnico's arms and torso show the
+      twisting momentum of the rotation. The rudo's head is caught
+      between the técnico's legs, his face showing wide-eyed panic (but
+      still cute children's-cartoon style, not violent or graphic), his
+      own legs off-balance mid-fall toward the ground. Dynamic
+      motion-line accents allowed to sell the spin. Both characters
+      compact and small, positioned together in the lower-right quarter
+      of the frame only.

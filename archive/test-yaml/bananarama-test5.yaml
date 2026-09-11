@@ -1,0 +1,28 @@
+# Round 5: rudo rival hair/facial-hair tweak only. flying3 is locked, kept
+# unchanged.
+output-dir: assets/test
+
+defaults:
+  model: gpt-image-2.5-sunburst
+  aspect-ratio: "16:9"
+
+images:
+  - name: rivals4
+    style: >
+      Flat vector sticker illustration, bold black outline, cel-shaded
+      with simple highlights, chibi proportions, isolated character
+      illustration (like a sticker/emoji asset), no scenery, no ring, no
+      props, no shadow on the ground.
+    description: >
+      [mascot] (the masked técnico, teal and gold mask, red cape) and a
+      second rival mini luchador standing side by side mid-taunt, same
+      compact size and position as before in the lower-right quarter of
+      the frame. The rival is a classic rudo: no mask, bare face with a
+      scowling but still cute children's-cartoon expression (thick
+      eyebrows, clenched jaw, playful-villain not scary), long dark hair
+      past the shoulders (loose or tied back), a subtle discreet goatee
+      (small, neat, not bushy), black and silver wrestling singlet,
+      black boots. Background must be a single flat solid pure white
+      (#FFFFFF), completely empty everywhere else in the frame, no
+      gradients, no texture, no decorative elements at all outside the
+      two characters.

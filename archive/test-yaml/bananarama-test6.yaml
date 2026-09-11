@@ -1,0 +1,35 @@
+# Round 6: two lucha libre move variants using the same técnico/rudo pair.
+output-dir: assets/test
+
+defaults:
+  model: gpt-image-2.5-sunburst
+  aspect-ratio: "16:9"
+  style: >
+    Flat vector sticker illustration, bold black outline, cel-shaded
+    with simple highlights, chibi proportions, isolated character
+    illustration (like a sticker/emoji asset), no scenery, no ring, no
+    props, no shadow on the ground. Background must be a single flat
+    solid pure white (#FFFFFF), completely empty everywhere else in the
+    frame, no gradients, no texture, no decorative elements at all
+    outside the characters.
+
+images:
+  - name: move-candado
+    description: >
+      [mascot] (the masked técnico, teal and gold mask, red cape) applying
+      a "candado al cuello" (a standing neck/headlock hold) to the rival
+      rudo (no mask, long dark hair, discreet goatee, black and silver
+      singlet, black boots) — técnico has one arm locked around the
+      rudo's neck from the side, rudo straining/grimacing but still in a
+      cute children's-cartoon way, not violent. Both characters compact
+      and small, positioned together in the lower-right quarter of the
+      frame only.
+  - name: move-patada
+    description: >
+      [mascot] (the masked técnico, teal and gold mask, red cape)
+      mid-air delivering a "patada voladora" (a flying dropkick), both
+      feet extended forward, body horizontal, striking toward the rival
+      rudo (no mask, long dark hair, discreet goatee, black and silver
+      singlet, black boots) who is reeling backward. Both characters
+      compact and small, positioned together in the lower-right quarter
+      of the frame only.

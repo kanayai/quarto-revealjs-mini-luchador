@@ -1,0 +1,26 @@
+# Quick 2-image test before committing budget to the full set.
+output-dir: assets/test
+
+defaults:
+  model: gpt-image-2.5-sunburst
+  aspect-ratio: "16:9"
+  style: >
+    Flat vector sticker illustration, bold black outline, cel-shaded with
+    simple highlights, chibi proportions. Mini luchador mascot: teal and
+    gold wrestling mask with a lightning-bolt motif, red cape, red trunks
+    with gold accents, warm skin tone, joyful dynamic pose. Cream/white
+    background. Data-science motifs woven in subtly (scatter dots, a trend
+    line, simple axes) without overwhelming the composition. Leave a large
+    clear empty area as described per image, for slide text to sit on top.
+
+images:
+  - name: title1
+    description: >
+      [mascot] centred, mid-leap pose, small scattered data dots and a
+      wavy trend line framing the top and bottom edges. Wide open empty
+      space in the vertical centre for a title.
+  - name: slide1
+    description: >
+      Small [mascot] tucked in the bottom-right corner only, rest of the
+      frame plain cream with a faint data-dot texture. Full frame free
+      for body content.

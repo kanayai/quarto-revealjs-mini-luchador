@@ -1,0 +1,36 @@
+# Round 3: (a) full-bleed ropes scene but scaled down + complete ropes,
+# (b) rival scene on a flat plain backdrop so it can be keyed to
+# transparency and placed/sized precisely via CSS.
+output-dir: assets/test
+
+defaults:
+  model: gpt-image-2.5-sunburst
+  aspect-ratio: "16:9"
+
+images:
+  - name: flying2
+    style: >
+      Flat vector sticker illustration, bold black outline, cel-shaded
+      with simple highlights, chibi proportions, warm storybook feel.
+    description: >
+      A small scene occupying no more than the left third of the frame:
+      [mascot] mid-air, diving off the top rope of a wrestling ring,
+      cape streaming. Show the full corner turnbuckle post and both
+      ropes completely, not cropped or cut off, with a tiny crowd
+      silhouette low behind. The scene must be compact and clearly
+      bounded, leaving the entire right two-thirds of the 1280x720
+      frame as flat, empty cream/white space with nothing in it, for
+      title text to sit on.
+  - name: rivals2
+    style: >
+      Flat vector sticker illustration, bold black outline, cel-shaded
+      with simple highlights, chibi proportions, isolated character
+      illustration (like a sticker/emoji asset), no scenery, no ring, no
+      props, no shadow on the ground.
+    description: >
+      [mascot] and a second rival mini luchador (purple and silver mask,
+      black cape) standing side by side mid-taunt, both small and
+      compact, positioned in the lower-right quarter of the frame only.
+      Background must be a single flat solid pure white (#FFFFFF), completely
+      empty everywhere else in the frame, no gradients, no texture, no
+      decorative elements at all outside the two characters.

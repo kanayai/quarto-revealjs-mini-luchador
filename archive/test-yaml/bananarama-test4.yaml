@@ -1,0 +1,40 @@
+# Round 4: rudo/técnico rival distinction, and ropes/scale fix on flying.
+output-dir: assets/test
+
+defaults:
+  model: gpt-image-2.5-sunburst
+  aspect-ratio: "16:9"
+
+images:
+  - name: rivals3
+    style: >
+      Flat vector sticker illustration, bold black outline, cel-shaded
+      with simple highlights, chibi proportions, isolated character
+      illustration (like a sticker/emoji asset), no scenery, no ring, no
+      props, no shadow on the ground.
+    description: >
+      [mascot] (the masked técnico, teal and gold mask, red cape) and a
+      second rival mini luchador standing side by side mid-taunt, same
+      compact size and position as before in the lower-right quarter of
+      the frame. The rival is a classic rudo: no mask, bare face with a
+      scowling but still cute children's-cartoon expression (thick
+      eyebrows, clenched jaw, playful-villain not scary), messy dark
+      hair, black and silver wrestling singlet, black boots. Background
+      must be a single flat solid pure white (#FFFFFF), completely empty
+      everywhere else in the frame, no gradients, no texture, no
+      decorative elements at all outside the two characters.
+  - name: flying3
+    style: >
+      Flat vector sticker illustration, bold black outline, cel-shaded
+      with simple highlights, chibi proportions, warm storybook feel.
+    description: >
+      A small, compact scene occupying at most the left quarter of the
+      1280x720 frame, smaller than before: [mascot] mid-air, diving off
+      the top rope of a wrestling ring, cape streaming. Show the corner
+      turnbuckle post and the ring ropes correctly: a standard lucha
+      libre ring has exactly three horizontal ropes stacked between the
+      posts, and all three must be fully visible, not cropped, not
+      overlapping into two. Tiny crowd silhouette low behind, very
+      subtle. The scene must be small and tightly bounded, leaving the
+      entire remaining frame (at least three-quarters) as flat, empty
+      cream/white space with nothing in it, for title text to sit on.

@@ -1,0 +1,37 @@
+# Round 9: fix candado al cuello again — must clearly be a bent ARM
+# (forearm/bicep) wrapped around the neck, not a thin rope/cord-like
+# shape (previous attempt read as strangling with a rope).
+output-dir: assets/test
+
+defaults:
+  model: gpt-image-2.5-sunburst
+  aspect-ratio: "16:9"
+  style: >
+    Flat vector sticker illustration, bold black outline, cel-shaded
+    with simple highlights, chibi proportions, isolated character
+    illustration (like a sticker/emoji asset), no scenery, no ring, no
+    props, no shadow on the ground. Background must be a single flat
+    solid pure white (#FFFFFF), completely empty everywhere else in the
+    frame, no gradients, no texture, no decorative elements at all
+    outside the characters.
+
+images:
+  - name: move-candado3
+    description: >
+      A "candado al cuello" (standing neck/headlock hold), three-quarter
+      side view. The rudo (no mask, long dark hair, discreet goatee,
+      black and silver singlet, black boots) is in FRONT, facing
+      forward/outward, upright, head pulled back and slightly down,
+      straining but still cute children's-cartoon style. The técnico
+      [mascot] (teal and gold mask, red cape) stands directly BEHIND the
+      rudo, pressed against his back. Draw the hold explicitly as a
+      thick, clearly-articulated bent ARM: the técnico's forearm wraps
+      around the front of the rudo's neck at a visible bent elbow, with
+      the técnico's hand gripping his own opposite bicep/forearm to lock
+      the hold (a classic sleeper-hold grip) — the limb must read
+      unmistakably as a muscular arm with a hand and fingers, NOT as a
+      thin rope, cord, belt, or the cape wrapped around the neck. The
+      técnico's cape should hang normally down his back, well clear of
+      the neck area, so it cannot be confused with the arm. Both
+      characters compact and small, positioned together in the
+      lower-right quarter of the frame only.
