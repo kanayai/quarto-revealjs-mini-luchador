@@ -1,0 +1,151 @@
+/*-- scss:defaults --*/
+
+$theme-cream: #fdf8ec;
+$theme-dark: #2b1b12;
+$theme-teal: #2e9b96;
+$theme-gold: #f6c445;
+$theme-red: #e0403a;
+$theme-skin: #f0b482;
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap');
+
+$body-bg: $theme-cream;
+$link-color: $theme-red;
+$code-color: $theme-teal;
+$body-color: $theme-dark;
+$presentation-heading-color: $theme-dark;
+$presentation-heading-font: 'Fredoka', sans-serif;
+$font-family-sans-serif: 'Nunito', sans-serif;
+$code-block-font-size: 0.8em;
+
+/*-- scss:rules --*/
+
+.reveal div.sourceCode {
+  border: unset !important;
+}
+
+div.sourceCode {
+  background-color: unset !important;
+}
+
+.center-v {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin background-full {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+// Title layouts (1-4)
+.theme-title1 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/title1.png');
+    @include background-full;
+  }
+  h2 { text-align: center; font-size: 3em; }
+  h3 { text-align: center; font-size: 2em; }
+}
+
+.theme-title2 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/title2.png');
+    @include background-full;
+  }
+  h2 { text-align: center; font-size: 3em; }
+  h3 { text-align: center; font-size: 2em; }
+}
+
+.theme-title3 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/title3.png');
+    @include background-full;
+  }
+  h2 { text-align: center; font-size: 3em; }
+  h3 { text-align: center; font-size: 2em; }
+}
+
+.theme-title4 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/title4.png');
+    @include background-full;
+  }
+  h2 { text-align: center; font-size: 3em; }
+  h3 { text-align: center; font-size: 2em; }
+}
+
+// Section layouts (1-4)
+.theme-section1 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/section1.png');
+    @include background-full;
+  }
+  h2, h3, h4, h5, p, pre { margin-left: 35%; width: 60%; }
+  h2 { font-size: 2em; }
+  h3 { font-size: 1.5em; }
+}
+
+.theme-section2 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/section2.png');
+    @include background-full;
+  }
+  h2, h3, h4, h5, p, pre { margin-left: 0px; width: 55%; }
+  h2 { font-size: 2em; }
+  h3 { font-size: 1.5em; }
+}
+
+.theme-section3 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/section3.png');
+    @include background-full;
+  }
+  h2, h3, h4, h5, p, pre { margin-left: 100px; width: 60%; }
+  h2 { font-size: 2em; }
+  h3 { font-size: 1.5em; }
+}
+
+.theme-section4 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/section4.png');
+    @include background-full;
+  }
+  h2, h3, h4, h5, p, pre { margin-left: 350px; width: 60%; }
+  h2 { margin-top: 100px; font-size: 2em; }
+  h3 { font-size: 1.5em; }
+}
+
+// Slide layouts (1-4)
+.theme-slide1 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/slide1.png');
+    @include background-full;
+  }
+}
+
+.theme-slide2 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/slide2.png');
+    @include background-full;
+  }
+  h2, h3, h4, h5, p, pre { margin-left: 100px; }
+}
+
+.theme-slide3 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/slide3.png');
+    @include background-full;
+  }
+  h2, h3, h4, h5, p, pre { margin-left: 100px; }
+}
+
+.theme-slide4 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/slide4.png');
+    @include background-full;
+  }
+  h2 { margin-top: 100px; }
+}
