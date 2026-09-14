@@ -1,6 +1,9 @@
 # bananarama image-generation spec for the mini-luchador theme
 # Run with: bananarama::bananarama("bananarama.yaml")
-# Requires OPENAI_API_KEY set in the environment (e.g. ~/.Renviron)
+# Requires OPENAI_API_KEY in the environment. It lives in the macOS Keychain,
+# not ~/.Renviron (migrated 2026-09-14). Run with:
+#   OPENAI_API_KEY="$(security find-generic-password -a "$USER" \
+#     -s OPENAI_API_KEY -w)" Rscript -e 'bananarama::bananarama("bananarama.yaml")'
 # Reference image: [mascot] resolves to mascot.png in this same directory.
 
 output-dir: assets
